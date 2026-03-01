@@ -23,3 +23,16 @@ function login() {
     }
 
 }
+
+function question() {
+    let javaName = prompt("What's the 'official' name of Javascript?", '');
+
+    const ECMA = ["ECMAscript", "ECMAScript"];
+
+    if (ECMA.includes(javaName)) {
+        alert("Right!")
+    } else {
+        alert("You don't know? \n 'ECMAScript'"
+        )
+    }
+}
